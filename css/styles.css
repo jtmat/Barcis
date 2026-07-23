@@ -539,19 +539,22 @@ main {
 }
 
 @media (max-width: 900px) {
-  .nav-wrap {
-    padding: 20px 0;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 17px;
-  }
+ 
+.nav-wrap {
+  padding: 20px 0;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+}
 
-  .main-nav {
-    width: 100%;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding-bottom: 4px;
-  }
+.main-nav {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 22px;
+  overflow: visible;
+  padding-bottom: 0;
+}
 
   .home-hero {
     grid-template-columns: 1fr;
